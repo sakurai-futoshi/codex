@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>飲酒運転が危険運転にならない理由</title>
+    <style>
+      body {
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background: #0e1117;
+        color: #e6e6e6;
+        margin: 0;
+        padding: 40px;
+      }
+      h1 {
+        text-align: center;
+        color: #ff5555;
+        margin-bottom: 30px;
+      }
+      .container {
+        max-width: 1100px;
+        margin: auto;
+      }
+      .flow {
+        display: grid;
+        grid-template-columns: 1fr 60px 1fr 60px 1fr;
+        align-items: center;
+        gap: 20px;
+      }
+      .box {
+        background: #1a1f2b;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+      }
+      .box h2 {
+        margin-top: 0;
+        color: #ffd166;
+        font-size: 18px;
+      }
+      .box p {
+        line-height: 1.6;
+        font-size: 15px;
+      }
+      .arrow {
+        font-size: 40px;
+        text-align: center;
+        color: #aaa;
+      }
+      .barrier {
+        background: linear-gradient(135deg, #ff3b3b, #ff9500);
+        color: black;
+        padding: 20px;
+        border-radius: 12px;
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(255, 80, 0, 0.7);
+      }
+      .section {
+        margin-top: 50px;
+        background: #151a24;
+        border-radius: 12px;
+        padding: 30px;
+      }
+      .label {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 20px;
+        background: #ff3b3b;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .good {
+        background: #06d6a0;
+      }
+      .bad {
+        background: #ef476f;
+      }
+      .scale {
+        margin-top: 20px;
+        display: flex;
+        height: 40px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      .scale div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .low {
+        background: #06d6a0;
+        width: 30%;
+      }
+      .mid {
+        background: #ffd166;
+        width: 40%;
+      }
+      .high {
+        background: #ef476f;
+        width: 30%;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 14px;
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>なぜ飲酒運転死亡事故の多くが<br />「危険運転」にならないのか</h1>
+
+    <div class="container">
+      <div class="flow">
+        <div class="box">
+          <h2>① 社会の直感</h2>
+          <p>
+            「飲酒して運転した時点で危険」<br />
+            「人を殺してもおかしくない行為」<br />
+            → だから<strong>危険運転致死</strong>のはず
+          </p>
+        </div>
+
+        <div class="arrow">➡</div>
+
+        <div class="box">
+          <h2>② 法律の視点</h2>
+          <p>
+            法は「飲んだか」ではなく<br />
+            <strong>正常な運転ができないほど危険だったか</strong>を問う
+          </p>
+        </div>
+
+        <div class="arrow">➡</div>
+
+        <div class="barrier">
+          🚧 立証の壁 🚧<br />
+          「運転不能レベルだった」と<br />
+          裁判で証明できなければ<br />
+          危険運転にならない
+        </div>
+      </div>
+
+      <div class="section">
+        <span class="label">裁判が見るポイント</span>
+        <p>
+          ・アルコール濃度<br />
+          ・ふらつき、呂律<br />
+          ・ブレーキ操作、ハンドル挙動<br />
+          ・事故前の運転記録<br />
+          ・本人の「危険の自覚」
+        </p>
+        <p>
+          これらが揃わないと、<br />
+          「注意すれば事故を防げた＝過失」と処理される
+        </p>
+      </div>
+
+      <div class="section">
+        <span class="label bad">社会の感覚</span>
+        <p>
+          「飲酒＝人を殺す可能性を分かってやっている」<br />
+          「それは未必の故意だ」
+        </p>
+
+        <span class="label good">法律の感覚</span>
+        <p>
+          「本当に制御不能だったか？」<br />
+          「それを証拠で示せるか？」
+        </p>
+      </div>
+
+      <div class="section">
+        <span class="label">危険度のグラデーション</span>
+        <div class="scale">
+          <div class="low">少量飲酒</div>
+          <div class="mid">明らかに酔っている</div>
+          <div class="high">運転不能レベル</div>
+        </div>
+        <p>
+          危険運転になるのは、右端の「運転不能」ゾーンだけ。<br />
+          その証明ができないと「過失」に落ちる。
+        </p>
+      </div>
+
+      <div class="section">
+        <span class="label">なぜこの構造が生まれるか</span>
+        <p>
+          ・危険運転は刑が極端に重い（最高20年）<br />
+          ・誤判を恐れて裁判所は非常に慎重<br />
+          ・だから「証拠で100%示せる場合」しか適用されない
+        </p>
+      </div>
+
+      <div class="footer">
+        社会の正義感と、法律の立証主義のズレがここにある
+      </div>
+    </div>
+  </body>
+</html>
